@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TEANAU · 光明神劍有限公司</title>
+<meta name="description" content="語義物理 × 敘事工程。長篇文學翻譯與創作的結構級 AI 管線。Akira Sword Co., Ltd., Taiwan.">
+<style>
+:root{--bg:#0f1115;--fg:#e8e6df;--muted:#9a978e;--accent:#d9b35a;--card:#171a21;--line:#262a33}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;line-height:1.7}
+header,section,footer{max-width:1040px;margin:0 auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}
+nav .brand{font-weight:700;letter-spacing:.18em}
+nav a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:14px}
+.hero{padding:96px 0 72px}
+.hero h1{font-size:clamp(30px,5vw,52px);line-height:1.2;margin:0 0 18px}
+.hero p{font-size:19px;color:var(--muted);max-width:720px;margin:0 0 30px}
+.btn{display:inline-block;background:var(--accent);color:#1a1300;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:600}
+h2{font-size:26px;margin:0 0 20px;padding-top:56px}
+.en{color:var(--muted);font-size:15px;margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:24px}
+.card h3{margin:0 0 10px;font-size:18px;color:var(--accent)}
+.card p{margin:0}
+ul{padding-left:20px}
+footer{border-top:1px solid var(--line);margin-top:80px;padding:36px 20px;color:var(--muted);font-size:14px}
+@media (max-width:600px){nav a{margin-left:14px}.hero{padding:64px 0 48px}}
+</style>
+</head>
+<body>
+<header>
+<nav><span class="brand">TEANAU</span><span><a href="#what">服務</a><a href="#work">實績</a><a href="#tech">技術</a><a href="#about">關於</a><a href="#contact">聯絡</a></span></nav>
+<div class="hero">
+<h1>讓 AI 先讀懂一部作品的結構，<br>再動手翻譯與創作</h1>
+<p>語義物理 × 敘事工程。長篇文學翻譯與創作的結構級 AI 管線。<br><span class="en">Structure first. Then translate, then create. A structure-level AI pipeline for long-form literary translation and creation, grounded in Semantic Physics.</span></p>
+<a class="btn" href="#contact">聯絡我們 / Contact</a>
+</div>
+</header>
+
+<section id="what">
+<h2>我們做什麼</h2>
+<p>現有 AI 翻譯與寫作停在句子層。我們先用自研的「語義物理」理論，讓多代理 LLM 管線讀出一部作品的結構：人物引力、劇場規則、伏筆與張力曲線。翻譯與創作再服從這個結構，而不是只服從字面。</p>
+<p class="en">Today's AI translation and writing stop at the sentence. We start with structure. Our multi-agent LLM pipeline, grounded in our original Semantic Physics framework, reads a work's character gravity, theatre rules, foreshadowing and tension curves. Translation and creation then obey that structure, not just the words.</p>
+<div class="grid" style="margin-top:28px">
+<div class="card"><h3>逆向分析 NERAS</h3><p>四軸深讀（人、路、場、底）加對抗審查，產出定位碼可驗證的結構卷宗。</p><p class="en">Four-axis deep reading with adversarial audit; a locator-verified structure dossier.</p></div>
+<div class="card"><h3>結構保真翻譯</h3><p>五站工作流。翻譯第一性原則：內在結構 ＞ 意譯 ＞ 音譯。</p><p class="en">A five-station workflow under one principle: inner structure &gt; sense &gt; sound.</p></div>
+<div class="card"><h3>敘事創造工程</h3><p>人類定大綱與鎖定項，系統列出每章可能路線並逐層收斂，定稿權在人。</p><p class="en">Humans set the outline and locked items; the system enumerates and prunes each chapter's routes; final say stays human.</p></div>
+</div>
+</section>
+
+<section id="work">
+<h2>實績</h2>
+<ul>
+<li>已完成全書處理：《紅樓夢》、《I Viceré》（Federico De Roberto）、《Ved Vejen》（Herman Bang）、《Taiwan Disaster Management Reference Handbook》（CFE-DM）。</li>
+<li>敘事逆向分析逾二十部作品，含劇本與長篇小說。</li>
+<li>同一理論母體延伸至中文論述影片的自動分鏡剪輯，以及中文 ↔ 印尼文即時口譯字幕。</li>
+</ul>
+<p class="en">Full-book runs on Dream of the Red Chamber, I Viceré, Ved Vejen and the Taiwan Disaster Management Reference Handbook; 20+ works analysed with NERAS. The same framework powers our automated video storyboarding and real-time interpretation lines.</p>
+</section>
+
+<section id="tech">
+<h2>技術</h2>
+<p>以 Claude Code 為調度核心的多代理架構。語義物理理論十三卷為共用母體。機械閘（譯名一致性、定位碼驗證、覆蓋率審計）與人工裁示閘並行；分析只做結構辨識，不做倫理審判。</p>
+<p class="en">Multi-agent architecture orchestrated by Claude Code. Thirteen volumes of Semantic Physics as the shared theoretical base. Mechanical gates (glossary consistency, locator verification, coverage audit) run alongside human decision gates.</p>
+</section>
+
+<section id="about">
+<h2>關於我們</h2>
+<p>光明神劍有限公司（Akira Sword Co., Ltd.），台灣。統一編號 89141849。<br>語義物理理論原創者：溫朗東（Langdon W.）。</p>
+<p class="en">Akira Sword Co., Ltd., Taiwan. Tax ID 89141849. Founder of the Semantic Physics framework: Langdon W.</p>
+</section>
+
+<section id="contact">
+<h2>聯絡</h2>
+<p>Email：<a href="mailto:contact@teanau.ai" style="color:var(--accent)">contact@teanau.ai</a></p>
+</section>
+
+<footer>© 2026 光明神劍有限公司 Akira Sword Co., Ltd. · TEANAU</footer>
+</body>
+</html>
